@@ -1,0 +1,12 @@
+Name: "schneider"
+Version: "1.0"
+Release: "17.03.22"
+Timezone : "Asia/Jakarta"
+
+Port: "/dev/ttyUSB0"
+BaudRate: 9600
+DataBits: 8
+Parity : "N"
+StopBits : 1
+SlaveId : 1
+Timeout : 250
