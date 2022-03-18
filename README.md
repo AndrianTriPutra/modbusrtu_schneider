@@ -2,7 +2,9 @@
 example client modbus rtu with device power meter schneider iEM3100 series / iEM3200 series
 
 - setting power meter
-- git clone https://github.com/AndrianTriPutra/modbusrtu_schneider
+- git clone https://github.com/AndrianTriPutra/modbusrtu_schneider schneider
+- cd schneider
+- go mod vendor
 - check and change config.yaml
 - go run .
 - use chmod a+rw if you error cause permission
